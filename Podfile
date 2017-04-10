@@ -8,6 +8,7 @@ target 'Yelp' do
   # Pods for Yelp
   pod 'AFNetworking', '~> 2.5'
   pod 'BDBOAuth1Manager'
+  pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
 
   target 'YelpTests' do
     inherit! :search_paths
